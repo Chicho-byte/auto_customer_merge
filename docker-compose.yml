@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: maqoor_teleg_merge_db
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - shared_webhook_network
+
+
+
+  webhook-receiver-8081:
+    build: .
+    container_name: webhook_receiver_8081
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/maqoor_teleg_merge_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
+    networks:
+      - shared_webhook_network
+
+networks:
+  shared_webhook_network:
+    external: true

@@ -1,0 +1,150 @@
+14:59:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+14:59:40 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chichyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chichyan/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+14:59:40 [main] INFO  c.m.t.c.CleanCloudWebhookTest - Starting CleanCloudWebhookTest using Java 22.0.2 with PID 10562 (started by chichyan in /Users/chichyan/maqoor_telegramBot)
+14:59:40 [main] INFO  c.m.t.c.CleanCloudWebhookTest - No active profile set, falling back to 1 default profile: "default"
+14:59:41 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:59:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:59:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+14:59:41 [main] INFO  c.m.t.c.CleanCloudWebhookTest - Started CleanCloudWebhookTest in 1.337 seconds (process running for 1.854)
+14:59:41 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Customer has been created
+14:59:41 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - Pos Customer has been created
+14:59:41 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Status has been updated
+14:59:41 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Customer has been created
+14:59:42 [main] INFO  c.m.t.t.s.i.TelegramChatServiceImpl - Saved chat: TelegramChat(id=131331, orderId=32134)
+14:59:42 [main] INFO  c.m.t.t.s.i.TelegramChatServiceImpl - Get chat by orderId: 32134
+14:59:42 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - App Customer , +123456789 ,  null
+14:59:42 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - Pos Customer , +123456789 , null
+14:59:42 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - Merged Customer , null ,  null
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Creating order Order(id=13131, paymentStatus=null, cleaningStatus=CLEANING, totalCost=2000, orderType=null, lockerOrder=1, deliveryOrder=0, customerId=24)
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Order with id 13131 updated
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - notify status changed for order Order(id=13131, paymentStatus=null, cleaningStatus=CLEANING, totalCost=2000, orderType=null, lockerOrder=1, deliveryOrder=0, customerId=24)
+14:59:42 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+14:59:42 [main] ERROR c.m.t.service.impl.OrderServiceImpl - Order with id 13131 not found
+14:59:42 [main] INFO  c.m.t.t.s.i.TelegramUserServiceImpl - Registered user: TelegramUser(id=1313131, userState=ACTIVE, requestCount=12, firstAttemptAt=2025-06-29T14:59:42.334678)
+14:59:42 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.TelegramUserRepositoryTest]: TelegramUserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:59:42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.TelegramUserRepositoryTest
+14:59:42 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chichyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chichyan/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+14:59:42 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - Starting TelegramUserRepositoryTest using Java 22.0.2 with PID 10562 (started by chichyan in /Users/chichyan/maqoor_telegramBot)
+14:59:42 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - The following 1 profile is active: "test"
+14:59:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:59:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+14:59:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:59:42 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.15.Final
+14:59:42 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+14:59:42 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:59:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+14:59:42 [main] INFO  com.zaxxer.hikari.pool.HikariPool - MyHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+14:59:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+14:59:42 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14:59:42 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (MyHikariCP)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+14:59:43 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14:59:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:59:43 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - Started TelegramUserRepositoryTest in 1.041 seconds (process running for 3.509)
+14:59:43 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.OrderRepositoryTest]: OrderRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:59:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.OrderRepositoryTest
+14:59:43 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.TelegramChatRepositoryTest]: TelegramChatRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:59:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.TelegramChatRepositoryTest
+14:59:43 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:59:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated...
+14:59:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed.
+15:00:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+15:00:00 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chichyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chichyan/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+15:00:00 [main] INFO  c.m.t.c.CleanCloudWebhookTest - Starting CleanCloudWebhookTest using Java 22.0.2 with PID 10598 (started by chichyan in /Users/chichyan/maqoor_telegramBot)
+15:00:00 [main] INFO  c.m.t.c.CleanCloudWebhookTest - No active profile set, falling back to 1 default profile: "default"
+15:00:01 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:00:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:00:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+15:00:01 [main] INFO  c.m.t.c.CleanCloudWebhookTest - Started CleanCloudWebhookTest in 1.359 seconds (process running for 1.956)
+15:00:01 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Customer has been created
+15:00:01 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - Pos Customer has been created
+15:00:01 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Status has been updated
+15:00:01 [main] INFO  c.m.t.c.c.CleanCloudWebhookController - App Customer has been created
+15:00:02 [main] INFO  c.m.t.t.s.i.TelegramChatServiceImpl - Saved chat: TelegramChat(id=131331, orderId=32134)
+15:00:02 [main] INFO  c.m.t.t.s.i.TelegramChatServiceImpl - Get chat by orderId: 32134
+15:00:02 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - App Customer , +123456789 ,  null
+15:00:02 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - Pos Customer , +123456789 , null
+15:00:02 [main] INFO  c.m.t.s.impl.CustomerServiceImpl - Merged Customer , null ,  null
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Creating order Order(id=13131, paymentStatus=null, cleaningStatus=CLEANING, totalCost=2000, orderType=null, lockerOrder=1, deliveryOrder=0, customerId=24)
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Order with id 13131 updated
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - notify status changed for order Order(id=13131, paymentStatus=null, cleaningStatus=CLEANING, totalCost=2000, orderType=null, lockerOrder=1, deliveryOrder=0, customerId=24)
+15:00:02 [main] INFO  c.m.t.service.impl.OrderServiceImpl - Getting order by id 13131
+15:00:02 [main] ERROR c.m.t.service.impl.OrderServiceImpl - Order with id 13131 not found
+15:00:02 [main] INFO  c.m.t.t.s.i.TelegramUserServiceImpl - Registered user: TelegramUser(id=1313131, userState=ACTIVE, requestCount=12, firstAttemptAt=2025-06-29T15:00:02.417527)
+15:00:02 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.TelegramUserRepositoryTest]: TelegramUserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:02 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.TelegramUserRepositoryTest
+15:00:02 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chichyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chichyan/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+15:00:02 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - Starting TelegramUserRepositoryTest using Java 22.0.2 with PID 10598 (started by chichyan in /Users/chichyan/maqoor_telegramBot)
+15:00:02 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - The following 1 profile is active: "test"
+15:00:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:00:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+15:00:02 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:00:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.15.Final
+15:00:02 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+15:00:02 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:00:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+15:00:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool - MyHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+15:00:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+15:00:02 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15:00:02 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (MyHikariCP)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+15:00:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15:00:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:00:03 [main] INFO  c.m.t.r.TelegramUserRepositoryTest - Started TelegramUserRepositoryTest in 1.028 seconds (process running for 3.611)
+15:00:03 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.OrderRepositoryTest]: OrderRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:03 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.OrderRepositoryTest
+15:00:03 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.maqoor.telegram_bot.repo.TelegramChatRepositoryTest]: TelegramChatRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:03 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.maqoor.telegram_bot.CustomerMergeApplication for test class com.maqoor.telegram_bot.repo.TelegramChatRepositoryTest
+15:00:03 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:00:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated...
+15:00:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed.

@@ -1,0 +1,39 @@
+<configuration scan="true">
+    <property name="LOG_FILE" value="${logging.file.name:-logs/app.log}" />
+
+    <!-- Rolling File Appender -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+
+        <!-- Rolling Policy: Size-based + time-based (optional) -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- File name pattern for archived logs -->
+            <fileNamePattern>logs/app.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+            <!-- Max size per file -->
+            <maxFileSize>10MB</maxFileSize>
+
+            <!-- Max total size of all log files -->
+            <totalSizeCap>1GB</totalSizeCap>
+
+            <!-- Retain max 30 days of logs -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Console Appender (optional) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="ROLLING" />
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
